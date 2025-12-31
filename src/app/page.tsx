@@ -7,9 +7,9 @@ export default function Home() {
         <h1 className="text-4xl md:text-6xl font-serif font-medium text-stone-100 tracking-tight leading-tight italic">
           Hi, I'm Aditya.
         </h1>
-        <div className="space-y-8 text-lg md:text-xl text-stone-400 font-light leading-relaxed max-w-prose">
+        <div className="space-y-8 text-xl md:text-l font-light text-stone-300 leading-relaxed max-w-prose">
           <p>
-            This is my digital garden where I collect what I find beautiful and meaningful.
+            This is my space where I collect what I find beautiful and meaningful.
           </p>
           <p>
             Welcome to my corner of the internet.
