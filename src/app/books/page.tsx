@@ -42,7 +42,7 @@ export default function Books() {
           </h2>
           <div className="grid grid-cols-1 gap-6">
             {reading.map((book) => (
-              <div key={book.title} className="group relative overflow-hidden bg-stone-900/30 rounded-lg p-6 border border-stone-800 hover:border-stone-700 transition-all duration-500">
+              <div key={book.title} className="relative overflow-hidden bg-stone-900/30 rounded-lg p-6 border border-stone-800">
                  <div className="flex flex-col gap-2">
                     <span className="text-2xl font-serif text-stone-100 italic">
                       {book.title}
@@ -64,11 +64,11 @@ export default function Books() {
         </h2>
         <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
           {read.map((book) => (
-            <li key={book.title} className="group flex flex-col gap-1 transition-opacity hover:opacity-100 opacity-70">
-              <span className="text-lg font-serif text-stone-200 leading-snug group-hover:text-white group-hover:underline decoration-stone-700 underline-offset-4 decoration-1 transition-all">
+            <li key={book.title} className="flex flex-col gap-1 opacity-70">
+              <span className="text-lg font-serif text-stone-200 leading-snug">
                 {book.title}
               </span>
-              <span className="text-xs uppercase tracking-widest text-stone-500 group-hover:text-stone-400 transition-colors">
+              <span className="text-xs uppercase tracking-widest text-stone-500">
                 {book.author}
               </span>
             </li>
@@ -84,8 +84,8 @@ export default function Books() {
           </h2>
            <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
             {wantToRead.map((book) => (
-              <li key={book.title} className="group flex flex-col gap-1">
-                 <span className="text-lg font-serif text-stone-400 group-hover:text-stone-300 transition-colors">
+              <li key={book.title} className="flex flex-col gap-1">
+                 <span className="text-lg font-serif text-stone-400">
                   {book.title}
                 </span>
                 <span className="text-xs uppercase tracking-widest text-stone-600">

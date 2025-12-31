@@ -1,21 +1,33 @@
 const quotes = [
   {
-    text: "Simplicity is the ultimate sophistication.",
-    author: "Leonardo da Vinci",
+    text: "Life swings like a pendulum backward and forward between pain and boredom.",
+    author: "Arthur Schopenhauer",
   },
   {
-    text: "Design is not just what it looks like and feels like. Design is how it works.",
-    author: "Steve Jobs",
+    text: "There is no greater sorrow than to recall happiness in times of misery.",
+    author: "Dante Alighieri",
   },
   {
-    text: "Good design is obvious. Great design is transparent.",
-    author: "Joe Sparano",
+    text: "I have spent all my life resisting the desire to end it.",
+    author: "Franz Kafka",
   },
   {
-    text: "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.",
-    author: "Antoine de Saint-Exupéry",
+    text: "Man can do what he wills but he cannot will what he wills.",
+    author: "Arthur Schopenhauer",
   },
-];
+  {
+    text: "Be yourself; everyone else is already taken.",
+    author: "Oscar Wilde",
+  },
+  {
+    text: "It's not miracles that dispose realists to belief. The genuine realist, if he is an unbeliever, will always find strength and ability to disbelieve in the miraculous, and if he is confronted with a miracle as an irrefutable fact he would rather disbelieve his own senses than admit the fact.",
+    author: "Fyodor Dostoevsky",
+  },
+  {
+    text: "You never know how strong you are until being strong is the only choice you have.",
+    author: "Bob Marley",
+  } 
+]; 
 
 export default function Quotes() {
   return (
